@@ -89,7 +89,7 @@
 
 }
 
-@media (max-width: 3600px) {
+
 
 /* Estilos para la barra de desplazamiento */
 ::-webkit-scrollbar {
@@ -371,7 +371,7 @@
 
 }
 
-}
+
 
 #imgMe {
    position: absolute;
