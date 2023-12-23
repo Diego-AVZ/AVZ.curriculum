@@ -6,7 +6,7 @@
     <title>AVZ</title>
     <link rel="stylesheet" href="css1.css">
 </head>
-<body style="overflow-x: hidden; scroll-behavior: smooth;"> <!---->
+<body style="overflow-x: hidden; scroll-behavior: smooth; filter: invert(0); background-color: black; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> <!---->
     
     <div id="header">
         <div><img src="logoA.png" id="logoA"> <p id="AVZ">AVZ</p></div>
@@ -20,21 +20,32 @@
 
     <div id="div1"> <!--Portada + Menú-->
 
-        <img src="imgweb.png" id="img1">
+        <div class="bub" id="bub1"></div>
+        <div class="bub" id="bub2"></div>
+        <div class="bub" id="bub3"></div>
 
-        <div id="ini">Blockchain  <b>Researcher</b> <br>& Web3 <b>Developer</b></div>
+        <video  id="video1" autoplay muted loop>
+                <source src="video1.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+        </video>
 
-        <button id="but1">See Projects</button>
-        <button id="but2">Skills</button>
-        <button id="but3">Articles</button>
-        <button id="but4">About Me</button>
-
+        <div id="divIni">
+                <div id="ini">Blockchain  <b>Researcher</b> <br>& Web3 <b>Developer</b></div>
+                <p id="info">Driven by a passion for Industry 4.0 technologies, with a solid foundation in <b>blockchain</b> research and <b> Web3 development </b>. Proficient in <b>JavaScript </b>and <b>Solidity</b>, I am focused on creating practical, <b>real-world</b> decentralized applications. As a <b> DeFi </b> expert and <b>digital asset</b> manager, I am skilled at formulating low-risk <b>passive income</b> strategies and pinpointing <b>profitable</b> investments. </p>
+                <button id="but1">See Projects</button>
+                <button id="but2">Skills</button>
+                <button id="but3">Articles</button>
+                <button id="but4">About Me</button>
+        </div>
     </div>
 
+    <div id="incl1"></div>
+    <div id="incl2"></div>
     <div id="div2"> <!--Knowledge-->
 
         <div id="cover1"></div> <div id="cover2"></div>
 
+        
         <div id="know">
             <div class="know1">
                 <p class="textKnow">Blockchain Enthusiast</p>
@@ -60,7 +71,7 @@
             </div>
 
             <div class="know1">
-                    Smart Contract Junior Developer
+                    Smart Contract Developer
             </div>
 
             <div class="know1">
@@ -97,7 +108,7 @@
                     Digital Entrepreneur
             </div>
             <div class="know1">
-                    DApp Developer
+                    dApp Developer
             </div>
         </div>
 
@@ -105,8 +116,71 @@
     </div>
 
     <div id="div3"> <!--Portfolio/Proyectos-->
-            <img src="me.jpeg" id="imgMe">
+        <p id="tpro">// My Projects</p>
+        <button class="ptb" id="F">#Front-End#</button>
+        <button class="ptb" id="B">{Back-End}</button>
+        <button class="ptb" id="full">[Full-Stack]</button>
+
+        <div id="proj1">
+                <p id="ptte">Type:</p>
+                <p id="ttext">Full-Stack</p>
+                <div id="tproj1" class="mpa">
+                        <div class="project" id="mp1">
+                                <img src="pro1.png" class="pImg">
+                                <p class="pname">Academy</p>
+                        </div>
+                        <div class="project" id="mp2">
+                                <img src="UserZone.png" class="pImg">
+                                <p class="pname">Social Network</p>
+                        </div>
+                        <div class="project" id="mp3">
+                                <img src="alphaZone.png" class="pImg">
+                                <p class="pname">Social Network</p>
+                                
+                        </div>
+                        
+                </div>
+
+        </div>
+
+        <img src="ordeImg.png" id="imgCode">
+
+        <div id="proj2">
+                <img src="" class="thisProImg" id="thisProImg2">
+                <p id="name2">Project Name</p>
+                <p id="pdesc">Project description</p>
+                <a href="">
+                        <button id="viewCode">
+                                <img src="ordeImg.png" id="imgCode2">
+                                <p>View Code</p>
+                        </button>
+                </a>
+                <a href="">
+                        <button id="goWeb">
+                                <img src="goWeb.png" id="goWebImg">
+                                <p>Launch Web</p>
+                        </button>
+                </a>
+
+                <a href="">
+                        <button id="guide">
+                                <img src="guideImg.png" id="guideImg">
+                                <p>Instructions</p>
+                        </button>
+                </a>
+
+                <a href="">
+                        <button id="paper">
+                                <img src="paper.png" id="paperImg">
+                                <p>Instructions</p>
+                        </button>
+                </a>
+        </div>
+        <div class="bub" id="bub4"></div>        
+        <div class="bub" id="bub5"></div>       
+        <div class="bub" id="bub6"></div>       
     </div>
     
+    <script src="js1.js"></script>
 </body>
 </html>
