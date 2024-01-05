@@ -222,9 +222,11 @@
     line-height: 80px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
+    transition: ease, 1s;
 }
 
 #but1 {
+    overflow: hidden;
     position: absolute;
     margin-top: 460px;
     margin-left: 0px;
@@ -301,6 +303,11 @@
 } #but4:hover {background-color: rgba(0, 0, 0, 0.845); cursor: pointer; margin-top: 455px; letter-spacing: 0.3px;}
 #but4:active{background-color:black; margin-top:500px;}
 
+#buts {
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 3vw;
+}
 
 #div2{
     position: relative; 
@@ -395,6 +402,7 @@
     text-align: justify;
     line-height: 30px;
     transform: translate(-50%,-50%);
+    transition: ease, 1s;
 }
 
 #div3{
@@ -460,6 +468,7 @@
     margin-left: 3vw;
     border-radius: 1vw 4vw 1vw 4vw;
     background: linear-gradient(20deg, rgb(19 19 19), rgb(13 13 13));
+    overflow: hidden;
 }
 
 #incl1 {
@@ -758,5 +767,190 @@
     border-radius: 1vw;
     box-shadow:   inset 0px 0px 10px rgb(46, 46, 46);
 } #paper:hover {cursor: pointer; border-radius: 2vw; transition: ease, 0.6s; margin-top: 62vh;}
+
+#ani1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -10vh;
+    margin-left: -5vw;
+    border-radius: 10vw;
+    transition: ease, 1.5s;
+    z-index: 1;
+}
+
+#bt1 {
+    position: absolute;
+    text-align: center;
+    width: 10vw;
+    margin-top: 0%;
+    margin-left: 47%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    transition: ease, 0.5s;
+
+}
+
+
+
+#div4 {
+    position: relative; 
+    display: block;
+    top: 350px;
+    left: -0.5vw;
+    background-color: rgb(0, 0, 0);
+    width: 102vw;
+    height: 95vh;
+    color: rgb(255, 255, 255);
+    z-index: 9997 ;
+    border-radius: 1vw;
+}
+
+#div41 {
+    position: absolute; 
+    display: block;
+    top: 0;
+    left: -2vw;
+    background-color: rgb(255, 255, 255);
+    width: 30vw;
+    height: 30vh;
+    color: rgb(255, 255, 255);
+    z-index: 9997 ;
+    border-radius: 0vw 3vw 3vw 0vw;
+}
+
+#div42 {
+    position: absolute; 
+    display: block;
+    top: 0;
+    right: -2vw;
+    background-color: rgb(255, 255, 255);
+    width: 75vw;
+    height: 30vh;
+    color: rgb(255, 255, 255);
+    z-index: 9997 ;
+    border-radius: 3vw 0vw 0vw 3vw;
+}
+
+#div41t {
+    position: absolute;
+    font-size: 4vw;
+    color: black;
+    font-weight: 800;
+    margin-top: 2vh;
+    margin-left: 3vw;
+    line-height: 60px;
+}
+
+#div5 {
+    position: relative; 
+    display: block;
+    top: 350px;
+    left: -0.5vw;
+    background-color: rgb(0, 0, 0);
+    width: 102vw;
+    height: 65vh;
+    color: rgb(255, 255, 255);
+    z-index: 9997 ;
+    border-radius: 1vw;
+}
+
+#div42t {
+    position: absolute;
+    font-size: 1.3vw;
+    color: black;
+    font-weight: 800;
+    margin-top: -1vh;
+    left: 48%;
+    transform: translateX(-50%);
+    line-height: 60px;
+}
+
+#tS1 {
+    position: absolute;
+    color: black;
+    margin-top: 23vh;
+    margin-left: 5vw;
+    font-size: 1.2vw;
+}
+
+#imgS1 {
+    position: absolute;
+    width: 6.7vw;
+    filter: contrast(1.5);
+    margin-top: 8vh;
+    margin-left: 5vw;
+    border-radius: 1vw;
+    
+} #imgS1:hover {
+    cursor: pointer;
+    filter: invert(100);
+    transition: ease, 0.5s;
+    box-shadow: -3px 5px 1px rgb(155, 155, 155);
+    margin-top: 7vh;
+} #imgS1:active {margin-top: 8vh; box-shadow: 0px 0px 0px rgb(155, 155, 155);}
+
+#tS2 {
+    position: absolute;
+    color: black;
+    margin-top: 23vh;
+    margin-left: 14.5vw;
+    font-size: 1.2vw;
+}
+
+#imgS2 {
+    position: absolute;
+    width: 7vw;
+    filter: contrast(1.5);
+    margin-top: 8vh;
+    margin-left: 15vw;
+    border-radius: 1vw;
+    
+} #imgS2:hover {
+    cursor: pointer;
+    filter: invert(100);
+    transition: ease, 0.5s;
+    box-shadow: -3px 5px 1px rgb(155, 155, 155);
+    margin-top: 7vh;
+} #imgS2:active {margin-top: 8vh; box-shadow: 0px 0px 0px rgb(155, 155, 155);}
+
+.div43 {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    margin-top: 35vh;
+    margin-left: 1vw;
+    width: 97vw;
+    height: 58vh;
+    color: white;
+}
+
+#atext {
+    position: absolute;
+    font-size: 2.85vw;
+    color: white;
+    margin-top: 1vh;
+}
+
+#div43a {
+    display: block;
+}
+
+#div43b {
+    display: none;
+}
+
+#div43c {
+    display: none;
+}
+
+#div43d {
+    display: none;
+}
+
+#div43f {
+    display: none;
+}
+
 
 }
