@@ -32,7 +32,9 @@
         <div id="divIni">
                 <div id="ini">Blockchain  <b>Researcher</b> <br>& Web3 <b>Developer</b></div>
                 <p id="info">Driven by a passion for Industry 4.0 technologies, with a solid foundation in <b>blockchain</b> research and <b> Web3 development </b>. Proficient in <b>JavaScript </b>and <b>Solidity</b>, I am focused on creating practical, <b>real-world</b> decentralized applications. As a <b> DeFi </b> expert and <b>digital asset</b> manager, I am skilled at formulating low-risk <b>passive income</b> strategies and pinpointing <b>profitable</b> investments. </p>
-                <button id="but1">See Projects</button>
+        </div>
+        <div id="buts">
+                <button id="but1"><p id="bt1">See Projects</p><div id="ani1"></div></button>
                 <button id="but2">Skills</button>
                 <button id="but3">Articles</button>
                 <button id="but4">About Me</button>
@@ -172,7 +174,7 @@
                 <a href="">
                         <button id="paper">
                                 <img src="paper.png" id="paperImg">
-                                <p>Instructions</p>
+                                <p>Whitepaper</p>
                         </button>
                 </a>
         </div>
@@ -180,7 +182,61 @@
         <div class="bub" id="bub5"></div>       
         <div class="bub" id="bub6"></div>       
     </div>
-    
+
+    <div id="div4">
+        <div id="div41">
+                <p id="div41t">Let`s <br> work <br>together!</p>
+        </div>
+        <div id="div42">
+                <p id="div42t">Select a service and let me know how can I help you</p>
+                <p id="tS1">Project Idea?</p>
+                <img src="imgS1.png" id="imgS1">
+                <p id="tS2">Are you hiring?</p>
+                <img src="imgS2.png" id="imgS2">
+                <img src="" id="imgS1">
+                <img src="" id="imgS1">
+        </div>
+        <div id="div43a" class="div43">
+                <p id="atext">Do you have a project idea but you don't know how to develop and launch it?</p>
+                <button onclick="sendToTelegram()">Send</button>
+
+                <textarea id="mesIn" rows="4" cols="50">
+                        Escribe algo aquí...
+                </textarea>
+
+    <script>
+        document.getElementById('myTextarea').addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                // Inserta un salto de línea en la posición del cursor
+                event.preventDefault(); // Evita el comportamiento predeterminado
+                const cursorPos = this.selectionStart;
+                const textBefore = this.value.substring(0, cursorPos);
+                const textAfter = this.value.substring(cursorPos);
+                this.value = textBefore + "\n" + textAfter;
+                // Mueve el cursor a la siguiente línea después del salto de línea
+                this.selectionStart = this.selectionEnd = cursorPos + 1;
+            }
+        });
+    </script>
+        </div>
+        <div id="div43b" class="div43">
+
+        </div>
+        <div id="div43c" class="div43">
+
+        </div>
+        <div id="div43d" class="div43">
+
+        </div>
+        <div id="div43f" class="div43">
+
+        </div>
+    </div>
+
+    <div id="div5">
+
+    </div>
+
     <script src="js1.js"></script>
 </body>
 </html>
